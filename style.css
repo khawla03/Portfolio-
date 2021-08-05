@@ -1,0 +1,129 @@
+
+
+body{
+background-color: bisque;
+font-family:Arial, Helvetica, sans-serif;
+padding: 0px;
+margin: 0px;
+height: 100%;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: cadetblue;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: cadetblue;
+
+
+}
+ul{
+    list-style-type: none;
+    /*display: block;*/
+    height:100%;
+    width:100%;
+}
+li a {
+    
+    float:left;
+    width:100%;
+  }
+
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: cadetblue;
+    
+}
+h4{
+    padding-top: 10px;
+    padding-bottom: 0%;
+    color: rgb(0, 39, 80);
+}
+a:link { /* unvisited link */ color: #000; text-decoration: none; border: none; }
+a:visited { /* visited link */ color:rgb(61, 61, 61); }
+a:hover { /* mouse over link */ color:yellowgreen; border: none; background-color:teal; }
+a:active { /* active link */ color: #000; }
+
+
+.menu{
+position:fixed;
+background-color: aquamarine;
+float: left;
+width: 15%;
+height: 100%;
+margin: 0px;
+justify-content: center;
+align-items: center;
+
+}
+.profile{
+    position: relative;
+    padding: auto;
+    float:right;
+    width: 80%;
+    /*justify-content: center; /* horizontal */
+    /*align-items: center; /* vertical */
+    /*display: flex;*/
+}
+#intro{
+    position: absolute;
+    background-color:rgb(255, 237, 215);
+    padding: 5px;
+    margin: 150px;
+    margin-top: 320px;
+    width: 40%;
+    /*border-radius: 5%;*/
+    /*display: flex;*/
+}
+#layer2{
+    position: absolute;
+    background-color:teal;
+    width: 40%;
+    height: 180px;
+    margin: 130px;
+    margin-top: 300px;
+}
+#centerimg{
+    position: absolute;
+    display: flex;
+    margin: 10px;
+    /*justify-content: center; /* horizontal 
+    align-items: center; /* vertical */
+}
+.illustrations{
+    padding: auto;
+    float:right;
+    width: 80%;
+}
+.image{
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+/*.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }*/
+.clickable :hover{
+    position: relative;
+    background-color: teal;
+  }
+.dropdown{
+    position: relative;
+}
